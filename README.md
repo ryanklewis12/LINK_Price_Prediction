@@ -1,1 +1,1 @@
-This project seeks to use machine learning in order to predict tomorrow's price change for the cryptocurrency LINK.
+This project seeks to use machine learning to predict tomorrow's price change for the cryptocurrency LINK.
