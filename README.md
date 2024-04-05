@@ -50,7 +50,7 @@ Date Formatting: Date fields were formatted to ensure consistency and compatibil
 ## 4. Results
 
 * Initial Model Evaluation
-  * Random Forest Classifier: The initial model achieved a prediction accuracy of approximately 48%. This performance was only marginally better than random chance, indicating the need for further refinement.
+  * Random Forest Classifier: The initial model achieved a prediction accuracy of approximately 48%. This performance was fairly on par with random chance, indicating the need for further refinement.
 
 * Incorporation of Sentiment Data
   * Enhanced Model with Sentiment Analysis: Sentiment data on market fear and greed indexes were incorporated, resulting in a slight improvement in accuracy to around 49.56%. While the addition of sentiment data provided some insights, it did not significantly enhance the model's predictive power.
