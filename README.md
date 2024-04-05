@@ -47,7 +47,7 @@ Date Formatting: Date fields were formatted to ensure consistency and compatibil
 ### Evaluation
 
 * Iterative Testing on Historical Data
-*  Backtesting involved splitting the historical dataset into multiple training and testing sets. The model was trained on earlier portions of the dataset and tested on subsequent periods, simulating real-world trading scenarios. This iterative process allowed for the evaluation of model performance across various market conditions and timeframes.
+  * Backtesting involved splitting the historical dataset into multiple training and testing sets. The model was trained on earlier portions of the dataset and tested on subsequent periods, simulating real-world trading scenarios. This iterative process allowed for the evaluation of model performance across various market conditions and timeframes.
 
 * Assessment of Precision Scores
 *  The precision scores obtained from backtesting were used to evaluate the model's accuracy and effectiveness in predicting price movements. Precision scores measure the model's ability to make correct predictions, particularly for positive instances (i.e., correctly predicting price increases or decreases).
