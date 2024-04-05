@@ -4,11 +4,13 @@
 
 This project seeks to use machine learning to predict tomorrow's price change for the cryptocurrency LINK.
 
+
 ## 1. Problem Statement
 
 The project aims to explore the feasibility of creating price predictions for the cryptocurrency LINK. Unlike some other major cryptocurrencies such as BTC and ETH, which have significant stability and predictability due to their large following and available data, LINK presents challenges due to its heightened volatility and lack of extensive data. 
 
 Cryptocurrency markets are highly volatile, with prices fluctuating rapidly due to various factors such as news events, market sentiment, regulatory changes, etc. Predicting exact future prices is inherently challenging due to this volatility. Given these challenges, I gave opted to design a model which predicts whether the price will go up or down tomorrow, rather than attempting to forecast a specific price. Additionally, binary predictions often times are more useful for traders who are primarily interested in making decisions based on whether the price is likely to move in a particular direction rather than the exact magnitude of the price movement.
+
 
 ## 2. Data Description & Transformation
 
@@ -25,6 +27,7 @@ Date Formatting: Date fields were formatted to ensure consistency and compatibil
   * Merging Datasets: The cleaned and filtered datasets were merged based on the 'Date' column to incorporate sentiment data into the LINK price dataset for comprehensive analysis.
     
   * Incorporation of Technical Analysis: Bollinger Bands and moving averages, technical analysis tools, were incorporated into the dataset. Bollinger bands provide insights into potential overvalued and undervalued instances in the price data, enhancing the predictive power of the model.
+
 
 ## 3. Models and Evaluation
 
@@ -50,10 +53,11 @@ Date Formatting: Date fields were formatted to ensure consistency and compatibil
   * Backtesting involved splitting the historical dataset into multiple training and testing sets. The model was trained on earlier portions of the dataset and tested on subsequent periods, simulating real-world trading scenarios. This iterative process allowed for the evaluation of model performance across various market conditions and timeframes.
 
 * Assessment of Precision Scores
-*  The precision scores obtained from backtesting were used to evaluate the model's accuracy and effectiveness in predicting price movements. Precision scores measure the model's ability to make correct predictions, particularly for positive instances (i.e., correctly predicting price increases or decreases).
-
+  * The precision scores obtained from backtesting were used to evaluate the model's accuracy and effectiveness in predicting price movements. Precision scores measure the model's ability to make correct predictions, particularly for positive instances (i.e., correctly predicting price increases or decreases).
+ 
 * Validation of Model Performance
- * By comparing predicted price movements with actual movements in the testing sets, the model's performance was validated. Consistent and high precision scores across multiple testing periods indicate the model's reliability and predictive power in forecasting cryptocurrency price movements.
+  * By comparing predicted price movements with actual movements in the testing sets, the model's performance was validated. Consistent and high precision scores across multiple testing periods indicate the model's reliability and predictive power in forecasting cryptocurrency price movements.
+
 
 ## 4. Results
 
