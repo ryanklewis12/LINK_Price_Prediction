@@ -28,7 +28,7 @@ Date Formatting: Date fields were formatted to ensure consistency and compatibil
 
 ## 3. Models and Evaluation
 
-# Models
+### Models
 
 * Algorithms Used
   * Random Forests
@@ -44,7 +44,7 @@ Date Formatting: Date fields were formatted to ensure consistency and compatibil
 
  * Backtesting Process
 
-# Evaluation
+### Evaluation
 
 * Iterative Testing on Historical Data
  * Backtesting involved splitting the historical dataset into multiple training and testing sets. The model was trained on earlier portions of the dataset and tested on subsequent periods, simulating real-world trading scenarios. This iterative process allowed for the evaluation of model performance across various market conditions and timeframes.
