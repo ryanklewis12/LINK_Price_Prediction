@@ -1,10 +1,8 @@
 
 
-This project seeks to use machine learning to predict tomorrow's price change for the cryptocurrency LINK.
-
-# LINK_Price_Prediction
-
 # LINK Price Prediction Using Machine Learning
+
+This project seeks to use machine learning to predict tomorrow's price change for the cryptocurrency LINK.
 
 ## 1. Problem Statement
 
