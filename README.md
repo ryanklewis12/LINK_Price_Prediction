@@ -26,7 +26,9 @@ Date Formatting: Date fields were formatted to ensure consistency and compatibil
     
   * Incorporation of Technical Analysis: Bollinger Bands and moving averages, technical analysis tools, were incorporated into the dataset. Bollinger bands provide insights into potential overvalued and undervalued instances in the price data, enhancing the predictive power of the model.
 
-## 3. Model and Evaluation
+## 3. Models and Evaluation
+
+# Models
 
 * Algorithms Used
   * Random Forests
@@ -34,23 +36,24 @@ Date Formatting: Date fields were formatted to ensure consistency and compatibil
 
 * Initial Model
   * Utilized a Random Forest classifier as the base model.
-  * Achieved a prediction accuracy of approximately 48%, indicating little improvement over random chance.
-
-* Incorporating Sentiment Data
-  * Integrated sentiment data on market fear and greed indexes.
-  * Model accuracy increased marginally to around 49.56%.
-
 * Implementing XGBoost Classifier
   * Adopted the XGBoost classifier and performed backtesting.
-  * Achieved a notable increase in accuracy to about 53.64%.
 
 * Target Variable
   * Daily price change signal of either positive or negative movement for the next day.
 
  * Backtesting Process
-Iterative Testing on Historical Data: Backtesting involved splitting the historical dataset into multiple training and testing sets. The model was trained on earlier portions of the dataset and tested on subsequent periods, simulating real-world trading scenarios. This iterative process allowed for the evaluation of model performance across various market conditions and timeframes.
-Assessment of Precision Scores: The precision scores obtained from backtesting were used to evaluate the model's accuracy and effectiveness in predicting price movements. Precision scores measure the model's ability to make correct predictions, particularly for positive instances (i.e., correctly predicting price increases or decreases).
-Validation of Model Performance: By comparing predicted price movements with actual movements in the testing sets, the model's performance was validated. Consistent and high precision scores across multiple testing periods indicate the model's reliability and predictive power in forecasting cryptocurrency price movements.
+
+# Evaluation
+
+* Iterative Testing on Historical Data
+ * Backtesting involved splitting the historical dataset into multiple training and testing sets. The model was trained on earlier portions of the dataset and tested on subsequent periods, simulating real-world trading scenarios. This iterative process allowed for the evaluation of model performance across various market conditions and timeframes.
+
+* Assessment of Precision Scores
+ * The precision scores obtained from backtesting were used to evaluate the model's accuracy and effectiveness in predicting price movements. Precision scores measure the model's ability to make correct predictions, particularly for positive instances (i.e., correctly predicting price increases or decreases).
+
+* Validation of Model Performance
+ * By comparing predicted price movements with actual movements in the testing sets, the model's performance was validated. Consistent and high precision scores across multiple testing periods indicate the model's reliability and predictive power in forecasting cryptocurrency price movements.
 
 ## 4. Results
 
